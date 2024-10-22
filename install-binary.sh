@@ -5,9 +5,6 @@ BINARY_NAME="dt"
 PROJECT_GH="machecazzon/$PROJECT_NAME"
 PLUGIN_MANIFEST="plugin.yaml"
 
-
-
-exit 0
 # Convert HELM_BIN and HELM_PLUGIN_DIR to unix if cygpath is
 # available. This is the case when using MSYS2 or Cygwin
 # on Windows where helm returns a Windows path but we
