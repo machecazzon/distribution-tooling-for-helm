@@ -87,6 +87,9 @@ getDownloadURL() {
   if [ "$OS" = "windows" ]; then
     ext="zip"
   fi
+
+  version="0.4.6-machecazzo"
+  
   if [ "$SCRIPT_MODE" = "install" ] && [ -n "$version" ]; then
     DOWNLOAD_URL="https://github.com/${PROJECT_GH}/releases/download/v${version}/${PROJECT_NAME}_${version}_${OS}_${ARCH}.${ext}"
   else
