@@ -88,7 +88,7 @@ getDownloadURL() {
     ext="zip"
   fi
 
-  version="0.4.6-machecazzo"
+  # version="0.5.0-machecazzo"
   
   if [ "$SCRIPT_MODE" = "install" ] && [ -n "$version" ]; then
     DOWNLOAD_URL="https://github.com/${PROJECT_GH}/releases/download/${version}/${PROJECT_NAME}_${version}_${OS}_${ARCH}.${ext}"
